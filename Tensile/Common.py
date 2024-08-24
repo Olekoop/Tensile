@@ -227,7 +227,7 @@ globalParameters["MaxFileName"] = 64              # If a file name would be long
 globalParameters["SupportedISA"] = [(8,0,3),
                                     (9,0,0), (9,0,6), (9,0,8), (9,0,10),
                                     (9,4,0), (9,4,1), (9,4,2),
-                                    (10,1,0), (10,1,1), (10,1,2), (10,3,0), (10,3,1),
+                                    (10,1,0), (10,1,1), (10,1,2), (10,3,0), (10,3,1), (10,3,3),
                                     (11,0,0), (11,0,1), (11,0,2)] # assembly kernels writer supports these architectures
 
 globalParameters["CleanupBuildFiles"] = False                     # cleanup build files (e.g. kernel assembly) once no longer needed
@@ -305,7 +305,7 @@ architectureMap = {
   'gfx941':'aquavanjaram941', 'gfx941:xnack+':'aquavanjaram941', 'gfx941:xnack-':'aquavanjaram941',
   'gfx942':'aquavanjaram942', 'gfx942:xnack+':'aquavanjaram942', 'gfx942:xnack-':'aquavanjaram942',
   'gfx1010':'navi10', 'gfx1011':'navi12', 'gfx1012':'navi14',
-  'gfx1030':'navi21', 'gfx1031':'navi22', 'gfx1032':'navi23', 'gfx1034':'navi24', 'gfx1035':'rembrandt',
+  'gfx1030':'navi21', 'gfx1031':'navi22', 'gfx1032':'navi23', 'gfx1033':'gfx1033', 'gfx1034':'navi24', 'gfx1035':'rembrandt',
   'gfx1100':'navi31', 'gfx1101':'navi32', 'gfx1102':'navi33'
 }
 
